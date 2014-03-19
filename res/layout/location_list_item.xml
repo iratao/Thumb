@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:orientation="horizontal">
+  
+  <ImageView android:id="@+id/info_imageview"
+              android:src="@drawable/info"
+              android:layout_width="32dp"
+              android:layout_height="32dp"
+              android:padding="5dp"/>
+              
+  <TextView android:id="@+id/lli_addr_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textAppearance="?android:attr/textAppearanceMedium"/>
+</LinearLayout>

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent">
+  <LinearLayout
+      android:id="@+id/pa_layout"
+      android:layout_width="fill_parent"
+      android:layout_height="fill_parent"
+      android:orientation="vertical">
+      
+      <LinearLayout 
+          android:layout_width="fill_parent"
+          android:layout_height="wrap_content"
+          android:orientation="horizontal"
+          android:background="#c0c0c0"
+          android:padding="2dp">
+          <ImageView android:id="@+id/info_imageview"
+              android:src="@drawable/info"
+              android:layout_width="32dp"
+              android:layout_height="32dp"
+              android:padding="5dp"/>
+          <LinearLayout 
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:orientation="vertical"
+              android:paddingTop="5dp"
+              android:paddingBottom="5dp">
+              <TextView 
+                  android:layout_width = "fill_parent"
+                  android:layout_height="wrap_content"
+                  android:text="Origination:"
+                  android:textStyle="bold"
+                  android:textColor="#000000"/>
+          
+              <TextView android:id="@+id/pa_startaddress_textview"
+                  android:layout_width="fill_parent"
+                  android:layout_height="wrap_content"
+                  android:text="Origination Address"
+                  android:textColor="#000000"/> 
+          </LinearLayout>
+      </LinearLayout>
+      
+      <LinearLayout 
+          android:layout_width="fill_parent"
+          android:layout_height="wrap_content"
+          android:orientation="horizontal"
+          android:background="#c0c0c0"
+          android:padding="2dp">
+          <ImageView android:id="@+id/info_imageview"
+              android:src="@drawable/info"
+              android:layout_width="32dp"
+              android:layout_height="32dp"
+              android:padding="5dp"/>
+          <LinearLayout 
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:orientation="vertical"
+              android:paddingTop="5dp"
+              android:paddingBottom="5dp">
+              <TextView 
+                  android:layout_width = "fill_parent"
+                  android:layout_height="wrap_content"
+                  android:text="Destination:"
+                  android:textStyle="bold"
+                  android:textColor="#000000"/>
+          
+              <TextView android:id="@+id/pa_endaddress_textview"
+                  android:layout_width="fill_parent"
+                  android:layout_height="wrap_content"
+                  android:text="Destination: Address"
+                  android:textColor="#000000"/> 
+          </LinearLayout>
+      </LinearLayout>
+
+      <TextView android:id="@+id/pa_choose_starttime_textview"
+          android:layout_width="fill_parent"
+          android:layout_height="wrap_content"
+          android:text="Choose Start Date and Time: "
+          android:textStyle="bold"
+          android:padding="2dp"/>
+          
+      
+      <Button android:id="@+id/pa_choose_startdate_button"
+          android:text="dd-MMMM-yyyy"
+          android:layout_width="fill_parent"
+          android:layout_height="wrap_content"/>
+      
+      <Button android:id="@+id/pa_choose_starttime_button"
+          android:text="HH:mm"
+          android:layout_width="fill_parent"
+          android:layout_height="wrap_content"/>
+  
+      <TextView android:id="@+id/pa_choose_endtime_textview"
+          android:layout_width="fill_parent"
+          android:layout_height="wrap_content"
+          android:text="Choose Start Date and Time: "
+          android:textStyle="bold"
+          android:padding="2dp"/>
+      
+      <Button android:id="@+id/pa_choose_enddate_button"
+          android:text="dd-MMMM-yyyy"
+          android:layout_width="fill_parent"
+          android:layout_height="wrap_content"/>
+      
+      <Button android:id="@+id/pa_choose_endtime_button"
+          android:text="HH:mm"
+          android:layout_width="fill_parent"
+          android:layout_height="wrap_content"/>
+      
+      <Button android:id="@+id/pa_nextstep_button"
+          android:text="Next Step"
+          android:layout_width="fill_parent"
+          android:layout_height="wrap_content"/>
+          
+  </LinearLayout>
+</ScrollView>

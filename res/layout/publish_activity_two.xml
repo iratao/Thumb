@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:orientation="vertical">
+  
+  <EditText android:id="@+id/pa_info_edittext"
+      android:layout_width="fill_parent"
+      android:layout_height="200dp"
+      android:gravity="top"
+      android:paddingTop="5dp"/>
+      
+  <TextView 
+          android:text="Choose A Category"
+          android:textStyle="bold"
+          android:layout_width="fill_parent"
+          android:layout_height="wrap_content"/>
+
+  <RadioGroup android:id="@+id/pa_radiogroup"
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content" 
+      android:orientation="vertical">
+
+      <RadioButton android:id="@+id/pa_direct_publish_button"
+          android:checked="false"
+          android:text="Direct Publish"/>
+      
+      <RadioButton android:id="@+id/pa_offer_ride_button"
+          android:checked="false"
+          android:text="Offer Ride"/>
+      
+      <RadioButton android:id="@+id/pa_need_ride_button"
+          android:checked="false"
+          android:text="Need Ride"/>
+          
+  </RadioGroup>
+  
+  <Button android:id="@+id/pa_publish_button"
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+      android:text="Publish"
+      android:textStyle="bold"/>
+      
+</LinearLayout>

@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent">
+<LinearLayout
+  
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:orientation="vertical">
+  <LinearLayout 
+          android:layout_width="fill_parent"
+          android:layout_height="wrap_content"
+          android:orientation="horizontal"
+          android:background="#c0c0c0"
+          android:padding="2dp">
+          <ImageView android:id="@+id/info_imageview"
+              android:src="@drawable/info"
+              android:layout_width="32dp"
+              android:layout_height="32dp"
+              android:padding="5dp"/>
+          <LinearLayout 
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:orientation="vertical"
+              android:paddingTop="5dp"
+              android:paddingBottom="5dp">
+              <TextView 
+                  android:layout_width = "fill_parent"
+                  android:layout_height="wrap_content"
+                  android:text="Origination:"
+                  android:textStyle="bold"
+                  android:textColor="#000000"/>
+          
+              <TextView android:id="@+id/sa_startaddress_textview"
+                  android:layout_width="fill_parent"
+                  android:layout_height="wrap_content"
+                  android:text="Not Specified"
+                  android:textColor="#000000"/> 
+          </LinearLayout>
+      </LinearLayout>
+      
+      <LinearLayout 
+          android:layout_width="fill_parent"
+          android:layout_height="wrap_content"
+          android:orientation="horizontal"
+          android:background="#c0c0c0"
+          android:padding="2dp">
+          <ImageView android:id="@+id/info_imageview"
+              android:src="@drawable/info"
+              android:layout_width="32dp"
+              android:layout_height="32dp"
+              android:padding="5dp"/>
+          <LinearLayout 
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:orientation="vertical"
+              android:paddingTop="5dp"
+              android:paddingBottom="5dp">
+              <TextView 
+                  android:layout_width = "fill_parent"
+                  android:layout_height="wrap_content"
+                  android:text="Destination:"
+                  android:textStyle="bold"
+                  android:textColor="#000000"/>
+          
+              <TextView android:id="@+id/sa_endaddress_textview"
+                  android:layout_width="fill_parent"
+                  android:layout_height="wrap_content"
+                  android:text="Not Specified"
+                  android:textColor="#000000"/> 
+          </LinearLayout>
+      </LinearLayout>
+      
+      <TextView 
+          android:text="Choose A Category(Optional)"
+          android:textStyle="bold"
+          android:layout_width="fill_parent"
+          android:layout_height="wrap_content"
+          style="?android:attr/listSeparatorTextViewStyle"/>
+
+      <RadioGroup android:id="@+id/pa_radiogroup"
+          android:layout_width="fill_parent"
+          android:layout_height="wrap_content" 
+          android:orientation="vertical">
+
+          <RadioButton android:id="@+id/sa_direct_publish_button"
+              android:checked="false"
+              android:text="Direct Publish"/>
+      
+          <RadioButton android:id="@+id/sa_offer_ride_button"
+              android:checked="false"
+              android:text="Offer Ride"/>
+      
+          <RadioButton android:id="@+id/sa_need_ride_button"
+              android:checked="false"
+              android:text="Need Ride"/>
+          
+      </RadioGroup>
+      
+      <TextView 
+          android:text="Choose Type(Optional)"
+          android:textStyle="bold"
+          android:layout_width="fill_parent"
+          android:layout_height="wrap_content"
+          style="?android:attr/listSeparatorTextViewStyle"/>
+
+      <RadioGroup android:id="@+id/pa_radiogroup"
+          android:layout_width="fill_parent"
+          android:layout_height="wrap_content" 
+          android:orientation="vertical">
+
+          <RadioButton android:id="@+id/sa_carpool_button"
+              android:checked="false"
+              android:text="Carpool"/>
+      
+          <RadioButton android:id="@+id/sa_travel_button"
+              android:checked="false"
+              android:text="Travel"/>
+      
+          <RadioButton android:id="@+id/sa_temp_button"
+              android:checked="false"
+              android:text="Temp"/>
+      </RadioGroup>
+      
+</LinearLayout>
+</ScrollView>

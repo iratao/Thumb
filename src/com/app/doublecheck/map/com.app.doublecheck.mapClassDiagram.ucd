@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<editmodel:ClassDiagramEditModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:editmodel="editmodel.xmi" xmlns:options="options.xmi" name="com.app.doublecheck.mapClassDiagram.ucd - com.app.doublecheck.map" id="{UMLID=_cGmHg40nEeCwoM7UmvvLVA,JavaID=com.app.doublecheck.map}" metadata="uml2-1.0" initialized="true" zoom="0.75" scrolledY="-8" tag="10" key="323030373036323920446F75626C65436865636B33">
+  <children xsi:type="editmodel:ClassEditModel" name="LocationHelper" location="89,157" size="173,155" timstampe="5" stereotype="" id="{UMLID=_dSEcII0nEeCwoM7UmvvLVA,JavaID=com.app.doublecheck.map/LocationHelper}" runTimeClassModel="DEC_FORMAT,getGeoPoint(Landroid.location.Address;),getGeoPointByLocation(Landroid.location.Location;),MILLION,CLASSTAG,NANJING_DAXUE">
+    <children xsi:type="editmodel:CompartmentEditModel" size="114,72">
+      <children xsi:type="editmodel:AttributeEditModel" name="CLASSTAG" size="85,16" id="{UMLID=_duocUI0nEeCwoM7UmvvLVA}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="MILLION" size="68,16" id="{UMLID=_dun1QI0nEeCwoM7UmvvLVA}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="DEC_FORMAT" size="97,16" id="{UMLID=_dulZAI0nEeCwoM7UmvvLVA}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="NANJING_DAXUE" size="114,16" id="{UMLID=_dupDYY0nEeCwoM7UmvvLVA}"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="152,36">
+      <children xsi:type="editmodel:MethodEditModel" name="getGeoPoint" size="98,16" id="{UMLID=_dut74Y0nEeCwoM7UmvvLVA,JavaID=com.app.doublecheck.map/LocationHelper#getGeoPoint(Landroid.location.Address;)}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getGeoPointByLocation" size="152,16" id="{UMLID=_duqRgI0nEeCwoM7UmvvLVA,JavaID=com.app.doublecheck.map/LocationHelper#getGeoPointByLocation(Landroid.location.Location;)}"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showMethods="true" showAttributes="true" showLiterals="true" ShowInnerEntity="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="LocationDetailActivity" location="487,0" size="178,183" timstampe="8" stereotype="" id="{UMLID=_d32CsI0nEeCwoM7UmvvLVA,JavaID=com.app.doublecheck.map/LocationDetailActivity}" runTimeClassModel="locAddrTextView,setEndButton,setStartButton,locationData,onCreate(Landroid.os.Bundle;),context,connector">
+    <children xsi:type="editmodel:CompartmentEditModel" size="113,118">
+      <children xsi:type="editmodel:AttributeEditModel" name="context" size="65,16" id="{UMLID=_d_x2sI0nEeCwoM7UmvvLVA}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="locationData" size="94,21" id="{UMLID=_d_xPoI0nEeCwoM7UmvvLVA}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="locAddrTextView" size="113,16" id="{UMLID=_d_tlQI0nEeCwoM7UmvvLVA}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="setStartButton" size="98,16" id="{UMLID=_d_wBgY0nEeCwoM7UmvvLVA}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="setEndButton" size="93,16" id="{UMLID=_d_vacY0nEeCwoM7UmvvLVA}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="connector" size="84,21" id="{UMLID=_d_zE0I0nEeCwoM7UmvvLVA}"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="84,18">
+      <children xsi:type="editmodel:MethodEditModel" name="onCreate" size="84,16" id="{UMLID=_d_0S8Y0nEeCwoM7UmvvLVA,JavaID=com.app.doublecheck.map/LocationDetailActivity#onCreate(Landroid.os.Bundle;)}"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" autoLocated="true" id="{UMLID=_eCo9cI0nEeCwoM7UmvvLVA}" source="//@children.1" target="//@children.4" targetEnd="//@children.1/@sourceConnections.0/@children.2" label="//@children.1/@sourceConnections.0/@children.0" sourceEnd="//@children.1/@sourceConnections.0/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,14" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="ownedEnd" location="87,183" id="{UMLID=_eCo9cY0nEeCwoM7UmvvLVA}" attachSource="true" multiplicityLabel="//@children.1/@sourceConnections.0/@children.1/@children.0" flags="1">
+        <children xsi:type="editmodel:LabelEditModel" name="1" location="580,189" size="6,14" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="locationData" location="61,0" id="{UMLID=_d_xPoI0nEeCwoM7UmvvLVA}" multiplicityLabel="//@children.1/@sourceConnections.0/@children.2/@children.1" roleLabel="//@children.1/@sourceConnections.0/@children.2/@children.2" orderingLabel="//@children.1/@sourceConnections.0/@children.2/@children.0" scopeKind="1" navigable="true" flags="1">
+        <children xsi:type="editmodel:LabelEditModel" name="{order}" location="580,189" size="34,14" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="1" location="560,203" size="6,14" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="+ locationData" location="580,203" size="68,14" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+      </children>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showMethods="true" showAttributes="true" showLiterals="true" ShowInnerEntity="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.6/@sourceConnections.0 //@children.6/@sourceConnections.3 //@children.5/@sourceConnections.0" name="LocationOverlayItem" location="490,377" size="172,106" timstampe="4" stereotype="" id="{UMLID=_dPawwI0nEeCwoM7UmvvLVA,JavaID=com.app.doublecheck.map/LocationOverlayItem}" runTimeClassModel="point,locationData,LocationOverlayItem(Lcom.google.android.maps.GeoPoint;Lcom.app.doublecheck.map.LocationData;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="94,41">
+      <children xsi:type="editmodel:AttributeEditModel" name="point" size="52,16" id="{UMLID=_d83soY0nEeCwoM7UmvvLVA}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="locationData" size="94,21" id="{UMLID=_d83so40nEeCwoM7UmvvLVA}"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="138,18">
+      <children xsi:type="editmodel:MethodEditModel" name="LocationOverlayItem" size="138,16" id="{UMLID=_d89zQI0nEeCwoM7UmvvLVA,JavaID=com.app.doublecheck.map/LocationOverlayItem#LocationOverlayItem(Lcom.google.android.maps.GeoPoint;Lcom.app.doublecheck.map.LocationData;)}"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" autoLocated="true" id="{UMLID=_d-CxUI0nEeCwoM7UmvvLVA}" source="//@children.2" target="//@children.4" targetEnd="//@children.2/@sourceConnections.0/@children.2" label="//@children.2/@sourceConnections.0/@children.0" sourceEnd="//@children.2/@sourceConnections.0/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,14" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="ownedEnd" location="84,0" id="{UMLID=_d-CxUY0nEeCwoM7UmvvLVA}" attachSource="true" multiplicityLabel="//@children.2/@sourceConnections.0/@children.1/@children.0" flags="1">
+        <children xsi:type="editmodel:LabelEditModel" name="1" location="580,355" size="6,14" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="locationData" location="61,109" id="{UMLID=_d83so40nEeCwoM7UmvvLVA}" multiplicityLabel="//@children.2/@sourceConnections.0/@children.2/@children.0" roleLabel="//@children.2/@sourceConnections.0/@children.2/@children.1" navigable="true" changeability="2" flags="1">
+        <children xsi:type="editmodel:LabelEditModel" name="1" location="560,339" size="6,14" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="+ locationData" location="580,339" size="68,14" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+      </children>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showMethods="true" showAttributes="true" showLiterals="true" ShowInnerEntity="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.6/@sourceConnections.2" name="LocationService" location="89,28" size="155,101" timstampe="5" stereotype="" id="{UMLID=_dPhecI0nEeCwoM7UmvvLVA,JavaID=com.app.doublecheck.map/LocationService}" runTimeClassModel="locationManager,LocationService(Landroid.location.LocationManager;),getLastKnownPoint()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="108,18">
+      <children xsi:type="editmodel:AttributeEditModel" name="locationManager" size="108,16" id="{UMLID=_d-NJYI0nEeCwoM7UmvvLVA}"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="134,36">
+      <children xsi:type="editmodel:MethodEditModel" name="LocationService" size="118,16" id="{UMLID=_d-NwcY0nEeCwoM7UmvvLVA,JavaID=com.app.doublecheck.map/LocationService#LocationService(Landroid.location.LocationManager;)}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getLastKnownPoint" size="134,16" id="{UMLID=_d-PloI0nEeCwoM7UmvvLVA,JavaID=com.app.doublecheck.map/LocationService#getLastKnownPoint()}"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showMethods="true" showAttributes="true" showLiterals="true" ShowInnerEntity="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.2/@sourceConnections.0 //@children.1/@sourceConnections.0" name="LocationData" location="513,224" size="124,109" timstampe="3" stereotype="" id="{UMLID=_dQMM0I0nEeCwoM7UmvvLVA,JavaID=com.app.doublecheck.map/LocationData}" runTimeClassModel="featureName,title,address,gp">
+    <children xsi:type="editmodel:CompartmentEditModel" size="91,72">
+      <children xsi:type="editmodel:AttributeEditModel" name="address" size="69,16" id="{UMLID=_eE_t4I0nEeCwoM7UmvvLVA}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="gp" size="41,16" id="{UMLID=_eFAU8I0nEeCwoM7UmvvLVA}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="title" size="45,16" id="{UMLID=_eE-fwY0nEeCwoM7UmvvLVA}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="featureName" size="91,16" id="{UMLID=_eE9RoI0nEeCwoM7UmvvLVA}"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showMethods="true" showAttributes="true" showLiterals="true" ShowInnerEntity="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.6/@sourceConnections.1" name="SearchedLocations" location="276,287" size="162,196" timstampe="4" stereotype="" id="{UMLID=_dPebII0nEeCwoM7UmvvLVA,JavaID=com.app.doublecheck.map/SearchedLocations}" runTimeClassModel="SearchedLocations(Landroid.graphics.drawable.Drawable;Lcom.app.doublecheck.map.LocationOverlayItem;Landroid.content.Context;),onTap(I),marker,locations,context,createItem(I),size(),draw(Landroid.graphics.Canvas;Lcom.google.android.maps.MapView;Z)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="78,59">
+      <children xsi:type="editmodel:AttributeEditModel" name="locations" size="78,21" id="{UMLID=_d2TxoI0nEeCwoM7UmvvLVA}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="marker" size="62,16" id="{UMLID=_d2SjgI0nEeCwoM7UmvvLVA}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="context" size="65,16" id="{UMLID=_d2Vm0I0nEeCwoM7UmvvLVA}"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="134,90">
+      <children xsi:type="editmodel:MethodEditModel" name="SearchedLocations" size="134,16" id="{UMLID=_d2fX0Y0nEeCwoM7UmvvLVA,JavaID=com.app.doublecheck.map/SearchedLocations#SearchedLocations(Landroid.graphics.drawable.Drawable;Lcom.app.doublecheck.map.LocationOverlayItem;Landroid.content.Context;)}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="onTap" size="69,16" id="{UMLID=_d2W08I0nEeCwoM7UmvvLVA,JavaID=com.app.doublecheck.map/SearchedLocations#onTap(I)}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="createItem" size="90,16" id="{UMLID=_d2jpQI0nEeCwoM7UmvvLVA,JavaID=com.app.doublecheck.map/SearchedLocations#createItem(I)}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="draw" size="66,16" id="{UMLID=_d2YqIY0nEeCwoM7UmvvLVA,JavaID=com.app.doublecheck.map/SearchedLocations#draw(Landroid.graphics.Canvas;Lcom.google.android.maps.MapView;Z)}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="size" size="60,16" id="{UMLID=_d2ibII0nEeCwoM7UmvvLVA,JavaID=com.app.doublecheck.map/SearchedLocations#size()}"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" autoLocated="true" id="{UMLID=_d61FQI0nEeCwoM7UmvvLVA}" source="//@children.5" target="//@children.2" targetEnd="//@children.5/@sourceConnections.0/@children.2" label="//@children.5/@sourceConnections.0/@children.0" sourceEnd="//@children.5/@sourceConnections.0/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,14" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="ownedEnd" location="162,143" id="{UMLID=_d61FQY0nEeCwoM7UmvvLVA}" attachSource="true" multiplicityLabel="//@children.5/@sourceConnections.0/@children.1/@children.0" flags="1">
+        <children xsi:type="editmodel:LabelEditModel" name="1" location="444,408" size="6,14" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="locations" location="0,53" id="{UMLID=_d2TxoI0nEeCwoM7UmvvLVA}" multiplicityLabel="//@children.5/@sourceConnections.0/@children.2/@children.0" roleLabel="//@children.5/@sourceConnections.0/@children.2/@children.1" navigable="true" flags="2">
+        <children xsi:type="editmodel:LabelEditModel" name="1" location="476,436" size="6,14" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="- locations" location="432,408" size="50,14" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+      </children>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showMethods="true" showAttributes="true" showLiterals="true" ShowInnerEntity="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="MapOverlayActivity" location="277,25" size="180,227" timstampe="787" stereotype="" id="{UMLID=_dMMdoI0nEeCwoM7UmvvLVA,JavaID=com.app.doublecheck.map/MapOverlayActivity}" runTimeClassModel="selocations,onCreateOptionsMenu(Landroid.view.Menu;),searchButton,searchedLocationOverlay,geocoder,locationService,onCreate(Landroid.os.Bundle;),getSearchedLocations(Ljava.lang.String;),searchInput,state,MESSAGE_FIND_LOCS,MESSAGE_NOT_FIND_LOCS,CHECK_OK,getLocationOverlayItems(Lcom.app.doublecheck.map.LocationData;),showLocations(),isRouteDisplayed(),CHECK_NEED_START,MESSAGE_SHOW_ON_MAP,listButton,locations,myLocationButton,progressDialog,addressList,getLocationDataList(LCollection;),check(),onOptionsItemSelected(Landroid.view.MenuItem;),CHECK_NEED_BOTH,onStart(),marker,context,CHECK_NEED_END,mapView,handler">
+    <children xsi:type="editmodel:CompartmentEditModel" size="168,342"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="159,180">
+      <children xsi:type="editmodel:MethodEditModel" name="onCreate" size="84,16" id="{UMLID=_dQcEcI0nEeCwoM7UmvvLVA,JavaID=com.app.doublecheck.map/MapOverlayActivity#onCreate(Landroid.os.Bundle;)}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="onStart" size="75,16" id="{UMLID=_dQnqoI0nEeCwoM7UmvvLVA,JavaID=com.app.doublecheck.map/MapOverlayActivity#onStart()}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="showLocations" size="115,16" id="{UMLID=_dQg88I0nEeCwoM7UmvvLVA,JavaID=com.app.doublecheck.map/MapOverlayActivity#showLocations()}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getSearchedLocations" size="149,16" id="{UMLID=_dQVWwI0nEeCwoM7UmvvLVA,JavaID=com.app.doublecheck.map/MapOverlayActivity#getSearchedLocations(Ljava.lang.String;)}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getLocationOverlayItems" size="159,16" id="{UMLID=_dQkAQI0nEeCwoM7UmvvLVA,JavaID=com.app.doublecheck.map/MapOverlayActivity#getLocationOverlayItems(Lcom.app.doublecheck.map.LocationData;)}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getLocationDataList" size="135,16" id="{UMLID=_dQIicI0nEeCwoM7UmvvLVA,JavaID=com.app.doublecheck.map/MapOverlayActivity#getLocationDataList(LCollection;)}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="onCreateOptionsMenu" size="147,16" id="{UMLID=_dP3csI0nEeCwoM7UmvvLVA,JavaID=com.app.doublecheck.map/MapOverlayActivity#onCreateOptionsMenu(Landroid.view.Menu;)}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="onOptionsItemSelected" size="150,16" id="{UMLID=_dQOpEI0nEeCwoM7UmvvLVA,JavaID=com.app.doublecheck.map/MapOverlayActivity#onOptionsItemSelected(Landroid.view.MenuItem;)}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="check" size="69,16" id="{UMLID=_dQiLEI0nEeCwoM7UmvvLVA,JavaID=com.app.doublecheck.map/MapOverlayActivity#check()}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="isRouteDisplayed" size="123,16" id="{UMLID=_dQa2UI0nEeCwoM7UmvvLVA,JavaID=com.app.doublecheck.map/MapOverlayActivity#isRouteDisplayed()}"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" id="{UMLID=_dcduQo0nEeCwoM7UmvvLVA}" source="//@children.6" target="//@children.2" targetEnd="//@children.6/@sourceConnections.0/@children.2" label="//@children.6/@sourceConnections.0/@children.0" sourceEnd="//@children.6/@sourceConnections.0/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,14" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="ownedEnd" location="178,210" id="{UMLID=_dcduQ40nEeCwoM7UmvvLVA}" attachSource="true" multiplicityLabel="//@children.6/@sourceConnections.0/@children.1/@children.0" flags="1">
+        <children xsi:type="editmodel:LabelEditModel" name="1" location="463,213" size="6,14" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="selocations" location="0,44" id="{UMLID=_dPYUgI0nEeCwoM7UmvvLVA}" multiplicityLabel="//@children.6/@sourceConnections.0/@children.2/@children.0" roleLabel="//@children.6/@sourceConnections.0/@children.2/@children.1" navigable="true" flags="2">
+        <children xsi:type="editmodel:LabelEditModel" name="1" location="476,399" size="6,14" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="- selocations" location="420,427" size="62,14" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+      </children>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" autoLocated="true" id="{UMLID=_dceVUI0nEeCwoM7UmvvLVA}" source="//@children.6" target="//@children.5" targetEnd="//@children.6/@sourceConnections.1/@children.2" label="//@children.6/@sourceConnections.1/@children.0" sourceEnd="//@children.6/@sourceConnections.1/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,14" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="ownedEnd" location="80,227" id="{UMLID=_dceVUY0nEeCwoM7UmvvLVA}" attachSource="true" multiplicityLabel="//@children.6/@sourceConnections.1/@children.1/@children.0" flags="1">
+        <children xsi:type="editmodel:LabelEditModel" name="1" location="363,259" size="6,14" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="searchedLocationOverlay" location="81,0" id="{UMLID=_dPd0EI0nEeCwoM7UmvvLVA}" multiplicityLabel="//@children.6/@sourceConnections.1/@children.2/@children.0" roleLabel="//@children.6/@sourceConnections.1/@children.2/@children.1" navigable="true" flags="2">
+        <children xsi:type="editmodel:LabelEditModel" name="1" location="343,265" size="6,14" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="- searchedLocationOverlay" location="363,265" size="132,14" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+      </children>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" autoLocated="true" id="{UMLID=_dcb5EI0nEeCwoM7UmvvLVA}" source="//@children.6" target="//@children.3" targetEnd="//@children.6/@sourceConnections.2/@children.2" label="//@children.6/@sourceConnections.2/@children.0" sourceEnd="//@children.6/@sourceConnections.2/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,14" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="ownedEnd" location="0,53" id="{UMLID=_dccgII0nEeCwoM7UmvvLVA}" attachSource="true" multiplicityLabel="//@children.6/@sourceConnections.2/@children.1/@children.0" flags="1">
+        <children xsi:type="editmodel:LabelEditModel" name="1" location="263,56" size="6,14" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="locationService" location="155,50" id="{UMLID=_dPgQUY0nEeCwoM7UmvvLVA}" multiplicityLabel="//@children.6/@sourceConnections.2/@children.2/@children.0" roleLabel="//@children.6/@sourceConnections.2/@children.2/@children.1" navigable="true" flags="2">
+        <children xsi:type="editmodel:LabelEditModel" name="1" location="251,84" size="6,14" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="- locationService" location="251,56" size="81,14" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+      </children>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" autoLocated="true" id="{UMLID=_dcduQI0nEeCwoM7UmvvLVA}" source="//@children.6" target="//@children.2" targetEnd="//@children.6/@sourceConnections.3/@children.2" label="//@children.6/@sourceConnections.3/@children.0" sourceEnd="//@children.6/@sourceConnections.3/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,14" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="ownedEnd" location="170,227" id="{UMLID=_dcduQY0nEeCwoM7UmvvLVA}" attachSource="true" multiplicityLabel="//@children.6/@sourceConnections.3/@children.1/@children.0" flags="1">
+        <children xsi:type="editmodel:LabelEditModel" name="1" location="433,259" size="6,14" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="locations" location="0,10" id="{UMLID=_dPsdk40nEeCwoM7UmvvLVA}" multiplicityLabel="//@children.6/@sourceConnections.3/@children.2/@children.0" roleLabel="//@children.6/@sourceConnections.3/@children.2/@children.1" navigable="true" flags="2">
+        <children xsi:type="editmodel:LabelEditModel" name="1" location="476,365" size="6,14" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="- locations" location="432,393" size="50,14" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+      </children>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showMethods="true" showLiterals="true" ShowInnerEntity="true"/>
+  </children>
+  <diagramOptions xsi:type="options:ClassDiagramOptions" properties="wireOptions=3" autoName="false"/>
+  <boardSetting snapToGeometry="true" gridEnabled="true" gridSpacing="14,14" gridOrigin="406,154" rulerUnit="cm" gridShow="true">
+    <leftRuler/>
+    <topRuler/>
+  </boardSetting>
+  <classDiagramPreferences xsi:type="editmodel:UMLClassDiagramPreference" attributeSorter="Natural" methodSorter="Natural" shortPackageNameFormat="true" showClassStereotype="true" showPackageStereotype="true" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showInterfaceStereotype="true" showMethods="true" showAttributes="true" showLiterlas="true" showInnerEntity="true"/>
+</editmodel:ClassDiagramEditModel>

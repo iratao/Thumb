@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest package="com.app.doublecheck"
+      android:versionCode="1"
+      android:versionName="1.0" xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <application android:icon="@drawable/icon" android:label="@string/app_name">
+        <activity android:name="PublishActivity"
+                  android:label="Publish Step One">
+            
+        </activity>
+        <activity android:name="PublishActivityTwo"
+                  android:label="Publish Step Two"></activity>
+                  
+        
+        <activity android:name=".map.MapOverlayActivity">
+            
+        </activity>
+        
+         <uses-library android:name="com.google.android.maps" />
+         
+         <activity android:name="StartActivity">
+             <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+             </intent-filter>
+         </activity>
+         <activity android:name=".map.LocationDetailActivity"></activity>
+         <activity android:name="MainActivity">
+             
+         </activity>
+         <activity android:name="RecordDetailActivity"></activity>
+         <activity android:name="SearchActivity"></activity>
+         <activity android:name="SearchResultActivity"></activity>
+         <activity android:name="LocationListActivity"></activity>
+        
+    </application>
+    
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+	<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+	<uses-permission android:name="android.permission.INTERNET" />
+</manifest>

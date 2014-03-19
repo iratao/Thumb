@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+  <LinearLayout
+      xmlns:android="http://schemas.android.com/apk/res/android"
+      android:layout_width="fill_parent"
+      android:layout_height="fill_parent"
+      android:orientation="vertical">
+      <RelativeLayout 
+		android:layout_height="50dp" android:layout_width="fill_parent"
+		android:background="#B3B3B3"
+		android:gravity="center">
+		<EditText android:id="@+id/ma_input_destination_input_edittext"
+		    android:layout_height="wrap_content"
+            android:layout_width="250dp"
+            android:singleLine="true"
+            android:layout_centerVertical="true"
+            android:hint = "Where Are You Going?"
+		/>
+		<Button android:id="@+id/ma_input_destination_input_button"
+		    android:layout_height="45dp"
+		    android:layout_width="49dp"
+		    android:text="OK"
+		    android:layout_centerVertical="true"
+		    android:layout_toRightOf="@id/ma_input_destination_input_edittext"/>
+		    
+	  </RelativeLayout>
+      <ListView android:id="@+id/ma_listview" 
+		    android:layout_width="fill_parent"
+			android:layout_height="wrap_content" >
+	  </ListView>
+  
+  </LinearLayout>
+
+
